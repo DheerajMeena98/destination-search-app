@@ -1,0 +1,8 @@
+.destination-search-bcg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination-search-container {
+}
