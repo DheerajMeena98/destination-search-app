@@ -1,1 +1,25 @@
-/* Write your CSS here */
+.each-destination-card {
+  width: 80%;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.destination-img {
+  width: 100%;
+}
+
+.each-destination-name {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .each-destination-card {
+    width: 40%;
+  }
+
+  .destination-img {
+    width: 80%;
+  }
+}
